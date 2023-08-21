@@ -1,5 +1,4 @@
-# FlowDir
-## FlowDIR 2023
+# FlowDIR 2023
 *Eleanor Tennant, Susanna Jenkins, Sébastien Biass*
 
 FlowDIR is a MATLAB tool designed to forecast the travel directions of topographically controlled hazardous flows. The tool consists of two complimentary methods that can be used to estimate flow directionality: 
