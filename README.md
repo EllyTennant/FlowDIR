@@ -4,9 +4,9 @@
 FlowDIR is a MATLAB tool designed to forecast the travel directions of topographically controlled hazardous flows. The tool consists of two complimentary methods that can be used to estimate flow directionality: 
 <ol> 
 
-<li> The azimuthal elevation difference:** this method analyses the topography in a straight line from the starting coordinate. 
+<li> The azimuthal elevation difference (AED): this method analyses the topography in a straight line from the starting coordinate. 
 
-<li> The least cost path: this method calculates an optimal path through a grid of elevation values. 
+<li> The least cost path (LCP): this method calculates an optimal path through a grid of elevation values. 
 
 
 This page serves as a succinct introduction to FlowDIR. For a more comprehensive understanding of how FlowDIR works please refer to:
@@ -88,7 +88,18 @@ Start point # [4/25] ...
 Finished
 ```
 
-<li> When FlowDIR is finished, all of the figures along with the workspace containing all variables, will be saved into the <code>out/VolcanoName/X</code> folder.
+<li> When FlowDIR is finished, the AED probabilities and the coordinates of the bin centre points at the buffer limit will be printed to the command window. 
+
+```
+    Direction        X             Y         AED Probability
+    _________    __________    __________    _______________
+
+     {'NNE'}     7.1219e+05     9.103e+06        0.38045    
+     {'NE' }     7.1227e+05    9.1029e+06         2.5246    
+     {'ENE'}     7.1231e+05    9.1028e+06          5.498    
+     {'E'  }     7.1236e+05    9.1028e+06         9.4317
+```
+The output figure and the workspace containing all variables will be saved into the <code>out/VolcanoName/X</code> folder.
 
 <br/>
 <img src="https://github.com/EllyTennant/FlowDIR/blob/main/images/Shinmoedake.png" width="800"></center>
