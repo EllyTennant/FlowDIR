@@ -105,7 +105,10 @@ The output figure and the workspace containing all variables will be saved into 
 <img src="https://github.com/EllyTennant/FlowDIR/blob/main/images/Shinmoedake.png" width="800"></center>
 
 ## Citation
-Please cite FlowDIR as ...
+Please cite FlowDIR as:
+
+*Tennant, E., Jenkins, S.F., Biass, S., (2023). FlowDIR: a MATLAB tool for rapidly and probabilistically forecasting the travel directions of volcanic flows. Journal of Applied Volcanology* 
+
 
 
  
