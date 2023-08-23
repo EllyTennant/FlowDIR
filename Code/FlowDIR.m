@@ -1057,8 +1057,9 @@ set(gca, 'Color', 'none')
 
 savefig(gcf, sprintf('%s/%s/%d/%s','Out', volcano, maxr+1, volcano))
 print(gcf, '-dpdf', fullfile(sprintf('%s/%s/%d/%s','Out', volcano, maxr+1, volcano)))
-end
+
 
 lab = {'NNE','NE', 'ENE', 'E', 'ESE', 'SE', 'SSE', 'S', 'SSW', 'SW', 'WSW', 'W', 'WNW', 'NW', 'NNW', 'N'};
 out = table(lab', buff_start_coordX',buff_start_coordY',sumT);
 out.Properties.VariableNames = {'Direction', 'X', 'Y', 'AED Probability'}
+end
